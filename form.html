@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Introdução</legend>
+            <label for="email">Email</label>
+            <input type="email" name="email" required>
+            <input type="submit" value="Enviar">
+            <br>
+            <label for="linguagem">Linguagem</label>
+            <input type="text" list="linguagem">
+            <datalist id="linguagem">
+                <optgroup label="Front-end">
+                    <option value="HTML">
+                    <option value="CSS">
+                    <option value="JS">
+                </optgroup>
+               <optgroup label="Back-end">
+                    <option value="JAVA">
+                    <option value="Payton">
+                    <option value="PHP">
+               </optgroup>  
+            </datalist>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
